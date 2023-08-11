@@ -1,7 +1,7 @@
 const Members = () =>
 {
     return (
-        <section className=''>
+        <section className='mt-10'>
             <h2 className="font-rod-chenko text-3xl mt-10 text-white sm:text-5xl md:text-6xl lg:text-7xl">THE MEMBERS</h2>
             <div className="mt-5 md:mt-7 sm:mt-6 lg:mt-10 grid gap-y-10 lg:gap-y-20">
                 <article className="w-[80%] mx-auto max-w-[800px] md:grid grid-cols-2 ">

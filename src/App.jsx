@@ -5,6 +5,9 @@ import About from "./components/About"
 
 import myVideo from "./assets/video/edit-bg-video.webm";
 import Members from './components/Members';
+import Discography from './components/Discography';
+import Gallery from './components/Gallery';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -14,6 +17,9 @@ function App() {
     <main className='max-w-[1124px] mx-auto p-3 sm:p-5 md:p-7 lg:p-9'>
       <About/>
       <Members/> 
+      <Discography/>
+      <Gallery/>
+      <Footer/>
     </main>
   </>
  );

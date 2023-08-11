@@ -14,3 +14,43 @@ video
 {
     filter: brightness(70%)
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #888;
+    border-radius: 5px;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ef4444;
+}
+.gallery
+{
+    scroll-snap-type: x mandatory;
+    scroll-snap-type: center;
+}
+.gallery ::-webkit-scrollbar-thumb
+{
+    background: #ef4444;
+}
+.gallery article
+{
+    scroll-snap-align: center;
+}
+
+.gallery ::-webkit-scrollbar 
+{
+    height: 5px;
+}
